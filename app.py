@@ -101,7 +101,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 # Sidebar section
-st.sidebar.title("AskVi")
+st.sidebar.title("AskMedio")
 twelve_labs_key = st.sidebar.text_input("Enter Twelve Labs Key:", type="password")
 
 if twelve_labs_key:
